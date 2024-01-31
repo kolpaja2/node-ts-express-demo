@@ -1,0 +1,53 @@
+{
+  "author": "kolpaja - @inova.al",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.1",
+    "prettier": "^3.2.4",
+    "tsx": "^4.7.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "@types/compression": "^1.7.5",
+    "@types/cookie-parser": "^1.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/lodash": "^4.14.202",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.11.10",
+    "@types/nodemon": "^1.19.6",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "express": "^4.18.2",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.0",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=10.2.3",
+    "yarn": "please-use-npm"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "./src/index.ts",
+  "name": "ts-express",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "prepare": "husky install",
+    "prettier": "prettier --write .",
+    "start": "nodemon"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
